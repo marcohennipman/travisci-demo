@@ -20,7 +20,7 @@ def multiply():
 
 
 @app.route('/touppercase')
-def touppercase():
+def toupipppercase():
     string = request.args.get('s')
     return string.toupper()
 
